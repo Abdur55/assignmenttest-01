@@ -91,6 +91,14 @@
     padding: 65px 40px;
 }
 
+.flex-col-box p{
+    padding-bottom: 20px;
+}
+
+.flex-col-box a{
+    padding: 12px 20px;
+    border: 1px solid black;
+}
 
 
 /* development style end */
