@@ -192,15 +192,14 @@
     text-align: center;
 }
 
-.center {
-    text-align: center;
-}
+
 .skills-container {
     display: flex;
     justify-content: space-between;
 }
 .skill {
-    padding: 65px;
+    padding: 25px;
+    margin: 30px;
 }
 .skill a {
     color: black;
