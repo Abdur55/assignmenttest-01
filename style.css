@@ -240,3 +240,14 @@
 }
 
 /* class="content------start---- */
+
+
+
+/* footer styling start */
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer styling end */
