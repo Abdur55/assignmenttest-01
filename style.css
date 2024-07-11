@@ -4,7 +4,7 @@
     padding: 0;
 
 }
-/* banner-container */
+/* banner-container-----start----- */
 .banner-container {
     margin-top: 75px;
     background-image: url(assets/images/Hero-bg.png);
@@ -35,6 +35,9 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* banner-container-------end------- */
+
 /* development style start */
 
 
@@ -69,11 +72,18 @@
     justify-content: space-around;
     border-radius: 16px;
 }
+.flex-col-box h3, p, a {
+    padding: 10px;
+    color:  rgba(13, 19, 33, 0.7) ;
+}
 
+.flex-col-box a {
+   text-decoration: none;
+   
+}
 
 .text-color{
     color: black;
-    
 }
 
 
@@ -85,7 +95,7 @@
 
 /* development style end */
 
-/* banner */
+/* banner ------start-----*/
 .banner {
    
    height: 1395px;
@@ -105,7 +115,10 @@
     font-size: 15px;
     color: rgb(89, 92, 100);
 }
-/* video */
+
+/* banner-----end---- */
+
+/* video ------start----*/
 .video h1 {
     text-align: center;
 }
@@ -129,7 +142,7 @@
 .iframe {
     padding: 10px 12px;
 }
-
+/* video ------end---*/
 
 /* iframe video style start  */
 
@@ -187,9 +200,13 @@
     justify-content: space-between;
 }
 .skill {
-    
     padding: 65px;
 }
+.skill a {
+    color: black;
+    font-size: 15px;
+}
+
 .skill-title {
     padding: 15px;
     font-size: 20px;
@@ -223,7 +240,7 @@
 .banner-center-text{
     text-align: center;
     padding:15px;
-    color: #ffffff;
+    color: #ffffff50;
 }
 .form-support {
    margin-left: 40%;
@@ -236,10 +253,11 @@
 }
 .submit {
     padding: 11px;
+    border-radius: 10px; 
 
 }
 
-/* class="content------start---- */
+/* class="content------end---- */
 
 
 
@@ -248,6 +266,12 @@
 .footer-content{
     display: flex;
     justify-content: space-between;
+}
+.footer-section{
+    padding: 65px 30px;
+}
+.comment h3 {
+    font-size: 18px;
 }
 
 /* footer styling end */
