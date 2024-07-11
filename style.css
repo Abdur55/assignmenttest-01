@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/* banner-container */
+.banner-container {
+    margin-top: 75px;
+    background-image: url(assets/images/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.imge-icone  {
+    text-align: center;
+    padding: 30px;
+}
+.imge-icone h2 {
+    font-size: 45px;
+    margin-top: 45px;
+}
+.imge-icone h3 {
+    margin-top: 35px;
+    font-size: 15px;
+    color: rgb(76, 81, 94) ;
+}
+.button {
+    margin-top: 55px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* development style start */
+
+
+
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.bg-color{
+    background: rgba(13, 19, 33, 0.02);
+   
+}
+
+
+.section-title{
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.display-flex{
+    display: flex;
+    padding: 25px 97px 25px 97px;
+    
+}
+
+.flex-col{
+    background-color: #ffffff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+}
+
+
+.text-color{
+    color: black;
+    
+}
+
+
+.section-padding{
+    padding: 65px 40px;
+}
+
+
+
+/* development style end */
+
+/* banner */
+.banner {
+   
+   height: 1395px;
+   top:  857px;
+   left: 148px;
+   background-color: rgba(13, 19, 33, 0.02) ;
+}
+.banner {
+    text-align: center;
+    margin-top: 75px;
+   
+}
+.banner-title {
+    font-size: 35px;
+}
+.banner-line {
+    font-size: 15px;
+    color: rgb(89, 92, 100);
+}
+/* video */
+.video h1 {
+    text-align: center;
+}
+.video h4 {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 14px;
+   color: rgb(110, 113, 119);
+}
+.video-link {
+    width: 1140px;
+    height: 614px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border: 2px solid red;
+}
+.video-saied {
+    width: 1076px;
+    height: 550px;
+}
+.iframe {
+    padding: 10px 12px;
+}
+
+
+/* iframe video style start  */
+
+.iframe-video{
+    text-align: center;
+}
+
+/* iframe video style end  */
+
+/* shared style start */
+
+.content{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title{
+    text-align: center;
+    padding: 35px 0px;
+
+}
+.section-title p {
+    padding: 15px;
+    color: rgba(13, 19, 33, 0.527);
+}
+
+
+.iframe-video{
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 15px 20px;
+    border-radius: 16px;
+}
+
+.iframe-video iframe{
+    border-radius: 16px;
+}
+
+.padding{
+    padding: 50px 20px;
+}
+
+/* shared style end */
+
+/* skills ----start---*/
+
+.center {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+.skill {
+    
+    padding: 65px;
+}
+.skill-title {
+    padding: 15px;
+    font-size: 20px;
+}
+.skill-description {
+    padding: 15px;
+    font-size: 14px;
+}
+.about-items {
+    padding: 10px;
+}
+
+/* skills ------end-----*/
+
+/* class="content------start---- */
+
+.banner-support {
+    background-image: url(images/icons-3/B10A1-Challenge-Begins/assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 35px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.61);
+    background-blend-mode: overlay;
+}
+.banner-center {
+    text-align: center;
+    padding-top: 60px;
+    color: #ffffff;
+}
+.banner-center-text{
+    text-align: center;
+    padding:15px;
+    color: #ffffff;
+}
+.form-support {
+   margin-left: 40%;
+   padding-left: ;
+   padding: 11px;
+   border: 1px solid whitesmoke;
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.829);
+   
+}
+.submit {
+    padding: 11px;
+
+}
+
+/* class="content------start---- */
